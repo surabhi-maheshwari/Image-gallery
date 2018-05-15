@@ -1,0 +1,197 @@
+
+<br/>
+<br/>
+<h2 class="page-header" align ="center">Dashboard</h2>
+<h4 align="center"> Welcome to the Famous Places Gallery</h4>
+<div align="center" >
+<button type="button" class="btn btn-info btn-lg" (click)="selectedIndia()" style=" width: 100px;" >India</button>
+<button type="button" class="btn btn-info btn-lg" (click)="selectedUS()" style="margin-left: 20px; width: 100px;">US</button>
+</div>
+<div *ngIf="selectedIndex()">
+    <figure class="snip0013">
+      <a href="https://www.google.com/maps/place/Taj+Mahal/@27.1733702,78.0420624,3a,75y,10.31h,105.6t/data=!3m8!1e1!3m6!1sAF1QipMSG0j4vDKFQkiHOwaKuCNk-elf8R8iAeVYX_kY!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMSG0j4vDKFQkiHOwaKuCNk-elf8R8iAeVYX_kY%3Dw203-h100-k-no-pi-15.036458-ya359.67188-ro-0-fo100!7i8704!8i4352!4m5!3m4!1s0x39747121d702ff6d:0xdd2ae4803f767dde!8m2!3d27.1750151!4d78.0421552">
+       <i> <img  width="300" height="200" src="../../../assets/images/taj mahal.jpeg" alt="taj mahal"/>
+        <div class="overlay">
+          <div class="text">Taj Mahal</div>
+        </div>
+      </i>			
+      </a>
+      </figure>
+  
+      <figure class="snip0013">
+        <a href="https://www.google.com/maps/place/Harmandir+Sahib/@31.6207863,74.8761369,3a,75y,182.48h,93.27t/data=!3m8!1e1!3m6!1sAF1QipNY5DYUBK4J4KyorlT8fy9a9qqNAPe_ygIRnEZy!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNY5DYUBK4J4KyorlT8fy9a9qqNAPe_ygIRnEZy%3Dw203-h100-k-no-pi-2.9999962-ya95.50001-ro-0-fo100!7i8704!8i4352!4m5!3m4!1s0x0:0x604384897626248e!8m2!3d31.6199803!4d74.8764849">
+        <i>		
+        <img  width="300" height="200" src="../../../assets/images/golden temple.jpg" alt="golden temple"/>
+          <div class="overlay">
+            <div class="text"> Golden Temple</div>
+          </div>			
+        </i>		
+      </a>
+        </figure>  
+        <figure class="snip0013">
+          <a href="https://www.google.com/maps/uv?hl=en&pb=!1s0x390cfce26ec085ef:0x441e32f4fa5002fb!2m22!2m2!1i80!2i80!3m1!2i20!16m16!1b1!2m2!1m1!1e1!2m2!1m1!1e3!2m2!1m1!1e5!2m2!1m1!1e4!2m2!1m1!1e6!3m1!7e115!4s/maps/place/red%2Bfort/@28.6559308,77.23832,3a,75y,73.13h,90t/data%3D*213m4*211e1*213m2*211sc4oMdNuGcsiuqC90w5l0_Q*212e0*214m2*213m1*211s0x390cfce26ec085ef:0x441e32f4fa5002fb!5sred+fort+-+Google+Search&imagekey=!1e2!2sc4oMdNuGcsiuqC90w5l0_Q&sa=X&ved=0ahUKEwi0kPmsp-_aAhVM21MKHXc7CCQQpx8I8wEwGQ">
+          <i>		
+          <img  width="300" height="200" src="../../../assets/images/red fort.jpg" alt="red fort"/>
+            <div class="overlay">
+              <div class="text">Red Fort</div>
+            </div>
+          </i>		
+        </a>			
+          </figure>    
+          
+          <figure class="snip0013">
+              <a href="https://www.google.com/maps/place/Lotus+Temple/@28.5539743,77.2587116,3a,75y,189.94h,104.68t/data=!3m8!1e1!3m6!1sAF1QipPuhfW7kP66wbMdeR3SuTmhgG7DPG0xu_pATiDf!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPuhfW7kP66wbMdeR3SuTmhgG7DPG0xu_pATiDf%3Dw203-h100-k-no-pi-2.9338646-ya347.88422-ro0-fo100!7i8000!8i4000!4m5!3m4!1s0x0:0x653beb1ee85ec67a!8m2!3d28.553492!4d77.2588264">
+              <i>		
+              <img  width="300" height="200" src="../../../assets/images/lotus temple.jpg" alt="lotus temple"/>
+              <div class="overlay">
+                <div class="text">Lotus Temple</div>
+              </div>	
+            </i>		
+          </a>		
+            </figure>
+
+            <figure class="snip0013">
+                <a href="https://www.google.com/maps/place/Sanchi+Stupa/@23.4801656,77.7401483,3a,75y,26.18h,97.4t/data=!3m8!1e1!3m6!1sAF1QipN5g1or8iPhLezA82758MizszBxM5QLlhktpFQT!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN5g1or8iPhLezA82758MizszBxM5QLlhktpFQT%3Dw203-h100-k-no-pi-0-ya345.5-ro-0-fo100!7i9728!8i4864!4m5!3m4!1s0x397c0ff7481b1191:0x9ebd3713a36096b2!8m2!3d23.4793743!4d77.7396681">
+                <i>		
+                <img  width="300" height="200" src="../../../assets/images/sanchi stupa.jpg" alt="sanchi stupa"/>
+                <div class="overlay">
+                  <div class="text">Sanchi Stupa</div>
+                </div>	
+              </i>		
+            </a>		
+              </figure>    
+
+              <figure class="snip0013">
+                  <a href="https://www.google.com/maps/place/Qutub+Minar/@28.5248502,77.1855282,3a,75y,196.76h,118.23t/data=!3m6!1e1!3m4!1sDcUS0rqPmqODq6-kC9OMtQ!2e0!7i13312!8i6656!4m8!1m2!2m1!1s+qutub+minar!3m4!1s0x390d1e0667819b4f:0x834995f160759db8!8m2!3d28.5244281!4d77.1854559">
+                  <i>		
+                  <img  width="300" height="200" src="../../../assets/images/qutub-minar.jpg" alt="qutub minar"/>
+                  <div class="overlay">
+                    <div class="text">Qutub Minar</div>
+                  </div>
+                </i>		
+              </a>			
+                </figure>
+
+                <figure class="snip0013">
+                    <a href="https://www.google.com/maps/uv?hl=en&pb=!1s0x3a19f2a097819bbf%3A0xed9983ca391e3247!2m20!8m2!1m1!1e2!16m16!1b1!2m2!1m1!1e1!2m2!1m1!1e3!2m2!1m1!1e6!2m2!1m1!1e4!2m2!1m1!1e5!3m1!7e115!4s%2Fmaps%2Fplace%2Fkonark%2Btemple%2F%4019.887546%2C86.0947922%2C3a%2C75y%2C253.21h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sxsiCTMqHG6mOgH6Q09AMlw*212e0*214m2*213m1*211s0x3a19f2a097819bbf%3A0xed9983ca391e3247!5skonark%20temple%20-%20Google%20Search&imagekey=!1e10!2sAF1QipO7T_gAVL1EnKdgxt9anuaLQbXqG4E1C91Yt_dy&sa=X&ved=0ahUKEwir9ZWZqO_aAhVSzFMKHfpLDxkQpx8I4gEwDg&activetab=panorama">
+                    <i>		
+                    <img  width="300" height="200" src="../../../assets/images/konark temple.JPG" alt="Konark temple"/>
+                    <div class="overlay">
+                      <div class="text">Konark Temple</div>
+                    </div>
+                  </i>		
+                </a>			
+                  </figure>
+                  <figure class="snip0013">
+                      <a href="https://www.google.com/maps/place/India+Gate/@28.6128659,77.2292764,3a,75y,63.26h,121.97t/data=!3m8!1e1!3m6!1sAF1QipMUtCL-Qx63p0a_U3y3dQnrhCtrev8wMmreNKJJ!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMUtCL-Qx63p0a_U3y3dQnrhCtrev8wMmreNKJJ%3Dw203-h100-k-no-pi-30.000002-ya353.6875-ro-0-fo100!7i8704!8i4352!4m5!3m4!1s0x0:0x717971125923e5d!8m2!3d28.612912!4d77.2295097">
+                      <i>		
+                      <img  width="300" height="200" src="../../../assets/images/india gate.jpg" alt="India gate"/>
+                      <div class="overlay">
+                        <div class="text">India gate</div>
+                      </div>	
+                    </i>		
+                  </a>		
+                    </figure>
+
+                    <figure class="snip0013">
+                        <a href="https://www.google.com/maps/place/Hawa+Mahal/@26.9237989,75.8270228,3a,75y,277.59h,129.84t/data=!3m8!1e1!3m6!1sAF1QipOwHIxqM7tG7NPmv1YHsd2xLWuChfEr6o9AbnN5!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOwHIxqM7tG7NPmv1YHsd2xLWuChfEr6o9AbnN5%3Dw234-h106-k-no-pi-24.40625-ya65.28126-ro-0-fo100!7i9728!8i4860!4m5!3m4!1s0x396db14b1bd30ba5:0x860e5d531eccb20c!8m2!3d26.9239363!4d75.8267438">
+                        <i>		
+                        <img  width="300" height="200" src="../../../assets/images/hawa-mahal.png" alt="Hawa Mahal"/>
+                        <div class="overlay">
+                          <div class="text">Hawa Mahal</div>
+                        </div>		
+                      </i>		
+                    </a>	
+                      </figure>
+                      
+  </div>
+  <div *ngIf="!selectedIndex()">
+      <figure class="snip0013">
+          <a href="https://www.google.com/maps/place/Statue+of+Liberty+National+Monument/@40.6885701,-74.0444824,3a,51.6y,8.95h,122.56t/data=!3m8!1e1!3m6!1sAF1QipOx80X0hnQkUHcpHKr8Uw7xp5HlwieuigAAW-NI!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOx80X0hnQkUHcpHKr8Uw7xp5HlwieuigAAW-NI%3Dw203-h100-k-no-pi-30.000002-ya358.79688-ro-0-fo100!7i8704!8i4352!4m5!3m4!1s0x89c25090129c363d:0x40c6a5770d25022b!8m2!3d40.6892494!4d-74.0445004">
+          <i>		
+          <img  width="300" height="200" src="../../../assets/images/statue of liberty.jpg" alt="Statue of Liberty"/>
+          <div class="overlay">
+            <div class="text">Statue of Liberty</div>
+          </div>		
+        </i>		
+      </a>	
+        </figure>
+        <figure class="snip0013">
+            <a href="https://www.google.com/maps/place/Mount+Rushmore+National+Memorial/@43.8771935,-103.4559402,3a,21.5y,294.54h,106.3t/data=!3m8!1e1!3m6!1sAF1QipOFxAY9wqVLnId9EsiFV7j_x9YuceVOF8kHmwmR!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOFxAY9wqVLnId9EsiFV7j_x9YuceVOF8kHmwmR%3Dw203-h100-k-no-pi-2.9999962-ya69.50002-ro-0-fo100!7i10240!8i5120!4m5!3m4!1s0x0:0xdaf53dbe055cc641!8m2!3d43.8791025!4d-103.4590667">
+            <i>		
+            <img  width="300" height="200" src="../../../assets/images/presidents.jpeg" alt="presidents"/>
+            <div class="overlay">
+              <div class="text">Mount Rushmore National Memorial</div>
+            </div>		
+          </i>		
+        </a>	
+          </figure> 
+          <figure class="snip0013">
+              <a href="https://www.google.com/maps/place/Washington+Monument/@38.8901488,-77.035619,2a,75y,163.15h,124.12t/data=!3m6!1e1!3m4!1sQYrdTfftLaB1kJ2Tq55w_w!2e0!7i13312!8i6656!4m5!3m4!1s0x89b7b7a1be0c2e7f:0xe97346828ed0bfb8!8m2!3d38.8894838!4d-77.0352791">
+              <i>		
+              <img  width="300" height="200" src="../../../assets/images/washington.jpg" alt="Washington"/>
+              <div class="overlay">
+                <div class="text">Washington Monument</div>
+              </div>		
+            </i>		
+          </a>	
+            </figure>
+            <figure class="snip0013">
+                <a href="https://www.google.com/maps/place/U.S.S+Arizona+Memorial+at+Bolin+Memorial+Park/@33.4481149,-112.0933457,3a,75y,163.5h,90t/data=!3m8!1e1!3m6!1sAF1QipO7Ki2MuUlYAiEDGpzqlwXVAsESsGhhm3iKROj7!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipO7Ki2MuUlYAiEDGpzqlwXVAsESsGhhm3iKROj7%3Dw203-h100-k-no-pi-0-ya163.5-ro-0-fo100!7i6912!8i3456!4m5!3m4!1s0x872b122d1fd98609:0x40af3b480cd8b775!8m2!3d33.448146!4d-112.0937086">
+                <i>		
+                <img  width="300" height="200" src="../../../assets/images/uss arizona.JPG" alt="USS arizona"/>
+                <div class="overlay">
+                  <div class="text">USS Arizona Memorial</div>
+                </div>		
+              </i>		
+            </a>	
+              </figure>
+          <figure class="snip0013">
+              <a href="https://www.google.com/maps/place/Independence+National+Historical+Park/@39.949188,-75.149901,2a,75y,202.48h,99.94t/data=!3m6!1e1!3m4!1s25KxldKxccc_RBW40A4iPw!2e0!7i13312!8i6656!4m5!3m4!1s0x0:0x8647809a3e710321!8m2!3d39.9495312!4d-75.1497319">
+              <i>		
+              <img  width="300" height="200" src="../../../assets/images/national historical.jpg" alt="National Historical"/>
+              <div class="overlay">
+                <div class="text">Independence National Historical Park</div>
+              </div>		
+            </i>		
+          </a>	
+            </figure>
+            <figure class="snip0013">
+                <a href="https://www.google.com/maps/place/Empire+State+Building/@40.7480477,-73.9848401,3a,75y,123.4h,142.42t/data=!3m8!1e1!3m6!1sAF1QipNfV6NPQBtXwjUzL_d0wN8k01cnQ3vawSZBo9vD!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNfV6NPQBtXwjUzL_d0wN8k01cnQ3vawSZBo9vD%3Dw129-h106-k-no-pi-30.000002-ya120.364586-ro-0-fo100!7i8192!8i4096!4m5!3m4!1s0x0:0xd134e199a405a163!8m2!3d40.7484405!4d-73.9856644">
+                <i>		
+                <img  width="300" height="200" src="../../../assets/images/empire state.jpg" alt="Empire State"/>
+                <div class="overlay">
+                  <div class="text">Empire State Building</div>
+                </div>		
+              </i>		
+  
+              </a>	
+              </figure>
+              <figure class="snip0013">
+                  <a href="https://www.google.com/maps/place/Thomas+Jefferson+Memorial/@38.8808885,-77.0365108,3a,75y,352.93h,90t/data=!3m7!1e1!3m5!1sXUwVlH2t-EE_iV6hDVlVIA!2e0!6s%2F%2Fgeo0.ggpht.com%2Fcbk%3Fpanoid%3DXUwVlH2t-EE_iV6hDVlVIA%26output%3Dthumbnail%26cb_client%3Dsearch.TACTILE.gps%26thumb%3D2%26w%3D129%26h%3D106%26yaw%3D352.9271%26pitch%3D-24.479166%26thumbfov%3D100!7i13312!8i6656!4m5!3m4!1s0x89b7b70b9e9c68bb:0x44137d74ec09872!8m2!3d38.8813959!4d-77.0364569">
+                  <i>		
+                  <img  width="300" height="200" src="../../../assets/images/Thomas jefferson.jpg" alt="Thomas Jefferson"/>
+                  <div class="overlay">
+                    <div class="text">Thomas Jefferson Memorial</div>
+                  </div>
+                </i>		
+                  </a>	
+                </figure>
+                <figure class="snip0013">
+                    <a href="https://www.google.com/maps/place/The+White+House/@38.8973976,-77.0365475,2a,75y,350.46h,107.48t/data=!3m7!1e1!3m5!1s5HPwmB_iGeihN09SMZQI_A!2e0!6s%2F%2Fgeo2.ggpht.com%2Fcbk%3Fpanoid%3D5HPwmB_iGeihN09SMZQI_A%26output%3Dthumbnail%26cb_client%3Dsearch.TACTILE.gps%26thumb%3D2%26w%3D129%26h%3D106%26yaw%3D349.5%26pitch%3D-2.9338646%26thumbfov%3D100!7i13312!8i6656!4m5!3m4!1s0x89b7b7bcdecbb1df:0x715969d86d0b76bf!8m2!3d38.8976763!4d-77.0365298">
+                    <i><img  width="300" height="200" src="../../../assets/images/white.jpg" alt="White house"/>
+                    <div class="overlay">
+                      <div class="text">White House</div>
+                    </div>	
+                  </i>	
+                    </a>	
+                  </figure>
+                  <figure class="snip0013">
+                      <a href="https://www.google.com/maps/place/Lincoln+Memorial/@38.8892016,-77.0495707,3a,75y,251.09h,103.99t/data=!3m6!1e1!3m4!1spxf7HmK9XLL_JRFk-c5n_w!2e0!7i13312!8i6656!4m5!3m4!1s0x89b7b771e0906287:0x1049d1c9c95c2eb6!8m2!3d38.8892686!4d-77.050176">
+                      <i><img  width="300" height="200" src="../../../assets/images/lincoln.JPG" alt="Lincoln"/>
+                      <div class="overlay">
+                        <div class="text">Lincoln Memorial</div>
+                      </div></i>		
+                      </a>	
+                    </figure>
+                 

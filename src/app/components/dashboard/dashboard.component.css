@@ -1,0 +1,116 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip0013 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 220px;
+  max-width: 310px;
+  max-height: 220px;
+  width: 100%;
+  background: #000000;
+  text-align: center;
+}
+figure.snip0013 img {
+  max-width: 100%;
+  opacity: 1;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip0013 > div {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  position: absolute;
+}
+figure.snip0013 > div a {
+  color: #ffffff;
+}
+figure.snip0013 > div a i {
+  font-size: 50px;
+  opacity: 0;
+  top: 50%;
+  position: relative;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  display: inline-block;
+}
+figure.snip0013 > div a i.left-icon {
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+figure.snip0013 > div a i.right-icon {
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+figure.snip0013 > div::before {
+  position: absolute;
+  top: 30px;
+  right: 50%;
+  bottom: 30px;
+  left: 50%;
+  border-left: 1px solid rgba(255, 255, 255, 0.8);
+  border-right: 1px solid rgba(255, 255, 255, 0.8);
+  content: '';
+  opacity: 0;
+  background-color: #ffffff;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgba(255, 255, 255, 0);;
+}
+figure.snip0013:hover img {
+  opacity: 0.35;
+}
+figure.snip0013:hover .overlay {
+    opacity: 0.7;
+  }
+figure.snip0013:hover > div i {
+  opacity: 0.9;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+figure.snip0013:hover > div i.left-icon {
+  -webkit-transform: translate3d(-25%, -50%, 0);
+  transform: translate3d(-25%, -50%, 0);
+}
+figure.snip0013:hover > div i.right-icon {
+  -webkit-transform: translate3d(25%, -50%, 0);
+  transform: translate3d(25%, -50%, 0);
+}
+figure.snip0013:hover > div::before {
+  background: rgba(255, 255, 255, 0);
+  left: 30px;
+  right: 30px;
+  opacity: 1;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
